@@ -8,7 +8,7 @@
 let distance : number = 0
 
 // Setup
-radio.setGroup(24)
+radio.setGroup(1)
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
@@ -22,8 +22,7 @@ input.onButtonPressed(Button.A, function() {
             PingUnit.Centimeters
         )
 
-        // Check if the distance reading is valid
-
+        // Check if the distance is 5 or less than 5
         if (distance <= 5) {
             radio.sendString('Too Close')
             basic.showIcon(IconNames.No)

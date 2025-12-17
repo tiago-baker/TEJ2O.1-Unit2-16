@@ -5,10 +5,11 @@
  * This program send message to another microbit if sonar is too close to object.
 */
 
+// Variables
 let distance : number = 0
 
 // Setup
-radio.setGroup(1)
+radio.setGroup(22)
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 

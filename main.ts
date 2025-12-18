@@ -1,8 +1,8 @@
-/* Copyright (c) 2020 MTHS All rights reserved
+    /* Copyright (c) 2020 MTHS All rights reserved
  *
  * Created by: Tiago Baker
  * Created on: Nov 2025
- * This program send message to another microbit if sonar is too close to object.
+ * This program send message to another microbit if sonar is too close to an object.
 */
 
 // Variables
